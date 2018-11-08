@@ -42,7 +42,7 @@ public class MinionTest {
 		assertEquals("blue", stuart.getColor());
 
 		Minion dave = new Minion("Dave", 2, "yellow", "");
-		assertEquals("Dave", dave.getName());
+		assertEquals("Davey", dave.getName());
 		assertEquals(2, dave.getEyes());
 		assertEquals("yellow", dave.getColor());
 	}
